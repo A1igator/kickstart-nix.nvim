@@ -96,6 +96,8 @@ g.editorconfig = true
 
 vim.opt.colorcolumn = '100'
 
+cmd "colorscheme monokai-pro"
+
 -- Native plugins
 cmd.filetype('plugin', 'indent', 'on')
 cmd.packadd('cfilter') -- Allows filtering the quickfix list with :cfdo
